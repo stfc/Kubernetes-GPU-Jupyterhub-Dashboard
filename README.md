@@ -3,9 +3,14 @@ A dashboard to monitor kubernetes cluster with GPU and JupyterHub for use with t
 Jupyterhub-Prometheus-Stack-Production ansible-playbook
 
 ## Demo
-![Alt Text](https://github.com/Donald954732/Kubernetes-GPU-Jupyterhub-Dashboard/raw/main/demo/Demo.gif)
+![Alt Text](https://github.com/Donald954732/Kubernetes-GPU-Jupyterhub-Dashboard/raw/main/demo/Demo-Dashboard.gif)
 
 ## Notes
+### Version
+- `dashboard.json`: for headless deployment with helm dashboard provider
+  - This version comes with variable hard coded onto the dashboard
+- `dashboard-portable.json`: **For manual deployment using WebUI**   
+
 ### Pods selector
 The Dashboard use regex to identifly JupyterHub user pods using prefix (`jupyter-` if installed with default helm chart). This can be changed in `jhubNameLabel` in `Settings -> Variables`. 
 
