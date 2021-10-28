@@ -17,7 +17,7 @@ The promQL to querry the metrics can change base on the exporter version. Check 
 ## Alternative Use
 Can be used to monitor Kubernetes cluster with other applications by deleting the irrelevent tabs (e.g. JupyterHub, GPU).
 
-## Credits
+## Based On
 - [1 K8S for Prometheus Dashboard](https://github.com/starsliao/Prometheus)
 - [Grafana Dashboards for JupyterHub](https://github.com/jupyterhub/grafana-dashboards)
 - [NVIDIA DCGM Exporter Dashboard](https://grafana.com/grafana/dashboards/12239)
