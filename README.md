@@ -19,7 +19,7 @@ Avoid deploying other pods with the same prefix.
 ### Potential change in syntax
 The promQL to querry the metrics can change base on the exporter version. Check the querry if some values are missing.
 
-## Alternative Use
+## Other Use case
 Can be used to monitor Kubernetes cluster with other applications by deleting the irrelevent tabs (e.g. JupyterHub, GPU).
 
 ## Based On
